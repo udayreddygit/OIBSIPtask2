@@ -1,0 +1,279 @@
+@media (min-width: 576px) {
+    .container {
+        background-color: #f9f9ff;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        background-color: #fff;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        background-color: aliceblue;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        background-color: azure;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.body {
+    background-color: #f9f9ff;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+    border-bottom: 0.03px solid rgb(186, 177, 177);
+}
+
+.header-logo {
+    width: 10%;
+}
+
+.header-logo img {
+    width: 250px;
+    margin-top: 20px;
+}
+
+.header-nav {
+    padding-bottom: 1px;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 20px;
+    text-align: end;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+/* Section 1 */
+
+.sec1 {
+    margin-top: 100px;
+    background-color: #f9f9ff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: auto;
+}
+
+.box1-txt {
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+}
+
+.box1-txt p {
+    font-size: medium;
+    font-weight: 10;
+}
+
+.box1-txt h1 {
+    font-size: 40px;
+}
+
+.box1-txt a {
+    text-decoration: none;
+    font-weight: 500;
+    background-color: #8490ff;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 3px;
+    margin: auto;
+    margin-top: 10px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+.box1-img {
+    width: 40%;
+    margin-left: auto;
+}
+
+.box1-img img {
+    width: 70%;
+}
+
+/* New Section */
+
+.sec2 {
+    margin-top: 200px;
+    background-color: #fff;
+    padding-top: 50px;
+}
+
+.box2-img {
+    width: 60%;
+}
+
+.box2-img img {
+    width: 50%;
+}
+
+.box2-txt {
+    width: 40%;
+}
+
+.box2-txt h6 {
+    font-size: medium;
+    font-weight: 600;
+}
+
+.box2-txt h1 {
+    font-weight: bold;
+}
+
+.box2-txt p {
+    font-weight: lighter;
+}
+
+.box2-txt a {
+    text-decoration: none;
+    font-weight: 500;
+    background-color: #8490ff;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    margin: auto;
+    margin-top: 10px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+/* New Section */
+
+.sec3 {
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.alignm {
+    width: 100%;
+    text-align: center;
+}
+
+.box3-txt p {
+    font-weight: 500;
+}
+
+/* New Section */
+
+.sec4 {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.align1 {
+    width: 100%;
+    display: flex;
+    flex: 33.3%;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.align2 {
+    width: 100%;
+    display: flex;
+    flex: auto;
+    margin: auto;
+}
+
+.sec4 a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.sec5 {
+    margin-top: 300px;
+    background-color: #8490ff;
+    color: white;
+    width: 100%;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+.counter {
+    width: 25%;
+}
+
+.latestfp {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.sec6 {
+    margin-bottom: 100px;
+}
+
+.sec8 {
+    background-color: #8490ff;
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+}
+
+.sec8 .brand-1 {
+    width: 20%;
+}
+
+.final {
+    background-color: #04091e;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.f-final {
+    width: 33%;
+    text-align: center;
+}
+
+.final p {
+    color: rgb(122, 121, 121);
+}
